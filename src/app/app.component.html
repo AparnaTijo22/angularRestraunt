@@ -10,7 +10,7 @@
     <a href="#" id="specialBtn" class="orange-btn">Visit Us</a>
   </div>
 </div>
-
+ 
 
   <!-- section-1 top-banner -->
   <section id="home" class="banner_wrapper">
@@ -301,14 +301,14 @@
              <div class="reservationRight">
                  <label for="email">Email</label><br>
                  <input type="email" class="email" id="email"    placeholder="Your email" required="required"><br>
-                 <label for="persons">Persons</label><br>
+                 <label for="persons" id="reservationTop">Persons</label><br>
                  <input type="number" class="persons" id="persons"   placeholder="Number of people" min="1" oninput="validity.valid||(value= '');" max="50" required="required"><br>
-                 <label for="date">Time</label><br>
+                 <label for="date" id="reservationTime">Time</label><br>
                  <input type="time" name="time" id="time" value="07:00" min="09:00" max="20:00" required="required"><br>
              </div>
          </div>            
 
-         <a href="#" target="_blank"><button class="orange-btn mt-4">Book a table</button></a><br>
+         <a href="#" target="_blank"><button id="reservationBtn" class="orange-btn mt-4">Book a table</button></a><br>
      </form>
  </div>
 </div>
