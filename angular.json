@@ -24,10 +24,8 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
+            "styles": [ "src/assets/css/style.css", "src/assets/css/responsive-style.css" ],
+            "scripts": ["src/assets/js/main.js"]
           },
           "configurations": {
             "production": {
@@ -94,5 +92,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

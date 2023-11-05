@@ -1,0 +1,76 @@
+/********************** NAVBAR **********************/
+.fixed {
+    position: fixed;
+    width: 100%;
+    transition: 0.2s linear;
+    top: 0px;
+    background-color: white;
+    z-index: 500;
+}
+
+.nofixed {
+    position: static;
+    transition: 0.2s linear;
+    top: -50px;
+}
+
+/********************** RESERVATION **********************/
+
+.reservation{
+    background-image: url("../assets/images/B.jpg");
+    height: 150vh;
+    padding-top: 5%;
+    margin-top: 10%;
+}
+
+
+.reservationBox{
+    background-color: #ffff;
+    width: 70%;
+    margin: auto;
+    height: 98vh;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px;
+}
+
+.reservationBox h3{
+    font-family: 'Great Vibes', cursive;
+    color: #c8a97e;
+    font-size: 5rem;
+    margin-top: 5%;
+}
+
+.reservationMain{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Mooli', sans-serif;
+}
+
+.reservationMain label{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.reservationMain input{
+    margin-bottom: 5%;
+    padding: 10px;
+    width: 140%;
+    border: 1px solid rgb(197, 196, 196);
+}
+
+.reservationLeft{
+    text-align: left;
+}
+
+.reservationLeft label, .reservationLeft input{
+    margin-left: -30%;
+}
+
+.reservationRight label{
+    margin-left: -70%;
+}
+
+.reservationBox button{
+    width: 40%; 
+}
